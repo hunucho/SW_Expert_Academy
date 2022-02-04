@@ -20,7 +20,7 @@ public class d2_1954 {
 			case 3: i--; if(temp==hold-1) { direct=0; temp=0; hold-=2; correction++;} break;
 			}
 		}
-		System.out.println("#"+test_case);
+//		System.out.println("#"+test_case);
 		for(i=0;i<n;i++) {
 			for(j=0;j<n;j++)
 				System.out.print(arr[i][j]+" ");
