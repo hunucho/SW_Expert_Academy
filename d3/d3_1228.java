@@ -31,8 +31,11 @@ public class d3_1228 {
 				}
 			}
 			bw.write("#" + test_case + " ");
-			for (int i = 0; i < 10; i++)
-				bw.write(li.pollFirst() + " ");
+//			for (int i = 0; i < 10; i++)
+//				bw.write(li.pollFirst() + " ");
+			for(String zz :li) {
+				System.out.println(zz);
+			}
 			bw.write("\n");
 
 		}
