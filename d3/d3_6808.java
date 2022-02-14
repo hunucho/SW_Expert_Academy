@@ -54,7 +54,6 @@ public class d3_6808 {
 					crr[cnt++]=i;
 			permutation(0);
 			System.out.printf("#%d %d %d\n",test_case,awin, bwin);
-
 		}
 	}
 }
